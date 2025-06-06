@@ -1,9 +1,13 @@
+/* GLOBAL STYLES */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'inter';
-    background-color: var(--background-color)
+    font-family: 'poppins';
+    background-color: var(--background-color);
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height);
 }
 
 :root {
@@ -17,7 +21,7 @@
     --h1: 3rem; 
     --h2: 2.5rem;
     --h3: 2.074rem
-    --h4: 2.074rem;
+    --h4: 1.728rem;
     --h5: 1.44rem;
     --h6: 1.2rem;
     --Paragraph: 1rem;
@@ -26,4 +30,70 @@
     --letter-spacing: 0.01em;
     --line-height: 1.6;
 }
+
+a {
+    text-decoration: none;
+    color: var(--heading-font-color-black);
+}
+
+h2 {
+    font-size: var(--h1);
+    color: var(--heading-font-color-black);
+}
+
+
+
+/* ------NAVIGATION---- */
+
+.Logo {
+    width: 8rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: var(--h2);
+
+}
+
+.btn {
+    background-color: var(--primary-base);
+    padding: var(--small) var(--h5);
+    border-radius: var(--h1);
+    border: 1.5px solid var(--primary-base);
+    box-shadow: 2px 0px 5px 1px ;
+    transition: 0.5s;
+}
+
+.btn-outline {
+    background-color: 	#28282B;
+    color: var(--primary-base);
+}
+
+.btn-primary {
+    color: #28282B;
+}
+
+.btn-outline:hover {
+    background-color: var(--primary-base);
+    color: #28282B;
+}
+
+.btn-primary:hover {
+    background-color: #28282B;
+    color: var(--primary-base);
+}
+
+ion-icon {
+    color: var(--heading-font-color-black);
+    width: 3rem;
+}
+
 
