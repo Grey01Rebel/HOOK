@@ -111,3 +111,8 @@ ion-icon {
     padding-right: 3.5rem;
 }
 
+.hero-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
