@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    background-color: var(--background-color)
+}
+
+:root {
+    --primary-base: #9c36b5;
+    --Primary-tint: #be4bdb;
+    --primary-shade: #862e9c;
+    --paragraph-Font-color: #495057;
+    --background-color: #212529;
+    --heading-font-color-white: #343a40;
+    --heading-font-color-black: #f8f9fa;
+    --h1: 3rem; 
+    --h2: 2.5rem;
+    --h3: 2.074rem
+    --h4: 2.074rem;
+    --h5: 1.44rem;
+    --h6: 1.2rem;
+    --Paragraph: 1rem;
+    --small: 0.833rem;
+    --xsmall: 0.694rem;
+    --letter-spacing: 0.01em;
+    --line-height: 1.6;
+}
+
