@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,8 +111,32 @@ ion-icon {
     padding-right: 3.5rem;
 }
 
-.hero-img {
+/* ------MAIN SECTION-------- */
+
+.section-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+}
+.main-container {
+    color: var(--heading-font-color-black);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 800px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    font-size: var(--h1);
+}
+
+.sub-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+    padding: 1rem;
+    font-size: var(--small);
 }
