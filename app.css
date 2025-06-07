@@ -196,3 +196,35 @@ ion-icon {
     font-weight: 500;
     font-size: var(--h3);
 }
+
+.founder-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.founder-text-con {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    gap: 2rem;
+    color: var(--heading-font-color-black);
+    padding: 1rem;
+}
+
+.founder {
+    max-width: 50%;
+}
+
+.founder-para2 {
+    font-size: var(--xsmall);
+}
+
+.founder-para2 {
+    font-size: var(--small);
+}
