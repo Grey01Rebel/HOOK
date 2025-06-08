@@ -228,7 +228,7 @@ ion-icon {
 .founder-para1 {
     font-size: var(--small);
 }
-
+/* METRICS */
 .metrics {
     background-color: var(--heading-font-color-black);
     height: 33em;
@@ -268,7 +268,7 @@ ion-icon {
     font-size: var(--h1);
     font-weight: 600;
 }
-
+/* STEPS */
 .steps {
     color: var(--heading-font-color-black);
     width: 50rem;
@@ -276,6 +276,10 @@ ion-icon {
 
 .steps-child {
     display: flex;
-    flex-direction: column;
+
     width: 13rem;
+}
+
+.steps-icon {
+    color: var(--Primary-tint);
 }
