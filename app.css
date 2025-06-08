@@ -276,10 +276,6 @@ ion-icon {
 
 .steps-child {
     display: flex;
-
+    flex-direction: column;
     width: 13rem;
-}
-
-.steps-icon {
-    color: var(--Primary-tint);
 }
