@@ -126,7 +126,7 @@ ion-icon {
     color: var(--heading-font-color-black);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 800px;
+    width: 50rem;
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -267,4 +267,15 @@ ion-icon {
 .percent-text {
     font-size: var(--h1);
     font-weight: 600;
+}
+
+.steps {
+    color: var(--heading-font-color-black);
+    width: 50rem;
+}
+
+.steps-child {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
 }
