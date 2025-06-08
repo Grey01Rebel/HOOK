@@ -279,3 +279,7 @@ ion-icon {
     flex-direction: column;
     width: 13rem;
 }
+
+.steps-img {
+    width: 50%;
+}
