@@ -252,6 +252,7 @@ ion-icon {
 .metrics-heading {
     font-size: var(--h2);
     width: 15em;
+    color: var(--background-color);
 }
 
 .metrics-card {
@@ -299,3 +300,11 @@ ion-icon {
     grid-column: 1/2;
 }
 
+.case-study {
+    background-color: var(--heading-font-color-black);
+    height: 40em;
+    margin-bottom: 10rem; /* REMEMBER TO REMOVE THIS MARGIN */
+}
+.case-study-img {
+    width: 160px;
+}
