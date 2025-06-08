@@ -37,6 +37,11 @@ a {
     color: var(--heading-font-color-black);
 }
 
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* ------NAVIGATION---- */
 
@@ -271,15 +276,24 @@ ion-icon {
 /* STEPS */
 .steps {
     color: var(--heading-font-color-black);
-    width: 50rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 5rem;
+    column-gap: 5rem;
 }
 
 .steps-child {
-    display: flex;
-    flex-direction: column;
-    width: 13rem;
+    width: 25rem;
 }
 
 .steps-img {
-    width: 50%;
+    width: 40%;
 }
+
+.copy {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
