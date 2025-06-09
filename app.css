@@ -284,7 +284,8 @@ ion-icon {
     justify-items: center;
     row-gap: 5rem;
     column-gap: 5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    padding: 4rem;
 }
 
 .steps-child {
@@ -302,15 +303,22 @@ ion-icon {
 
 .case-study-cont {
     background-color: var(--heading-font-color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .case-study {
-    margin-bottom: 10rem; /* REMEMBER TO REMOVE THIS MARGIN */
     display: flex;
-    padding: 4rem;
 }
 .case-study-img {
     width: 160px;
+}
+
+.case-heading {
+    text-align: center;
+    margin-top: 4rem;
 }
 
 .case-text {
@@ -345,4 +353,11 @@ ion-icon {
     align-items: center;
     gap: 4rem;
     padding: 2rem;
+}
+
+.shop-section {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
