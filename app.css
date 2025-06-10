@@ -445,6 +445,13 @@ ion-icon {
 }
 
 .testimonial-img {
-    width: 7%;
+    width: 20%;
     border-radius: 50%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
