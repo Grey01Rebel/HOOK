@@ -434,14 +434,25 @@ ion-icon {
 }
 
 .testimonial {
-    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.ailgn {
     text-align: center;
 }
 
 .testimonial-para {
-    width: 40%;
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     color: var(--heading-font-color-black);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .testimonial-img {
@@ -453,5 +464,10 @@ ion-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1rem;
+}
+
+.testimonial-control {
+    display: flex;
+    gap: 1rem;
 }
