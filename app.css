@@ -443,3 +443,8 @@ ion-icon {
     font-size: 0.92rem;
     color: var(--heading-font-color-black);
 }
+
+.testimonial-img {
+    width: 7%;
+    border-radius: 50%;
+}
