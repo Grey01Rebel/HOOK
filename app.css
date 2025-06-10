@@ -41,6 +41,7 @@ a {
     max-width: 1200px;
     width: 90%;
     margin: 2rem auto;
+    padding: 0 1rem;
 }
 
 /* ------NAVIGATION---- */
@@ -260,7 +261,7 @@ ion-icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 10rem;
+    width: 30%;
     color: var(--heading-font-color-black);
     background-color: var(--background-color);
     padding: 2rem 3rem;
@@ -270,6 +271,8 @@ ion-icon {
 .metrics-card-cont {
     display: flex;
     gap: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .percent-text {
