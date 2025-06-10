@@ -94,6 +94,7 @@ a {
 ion-icon {
     color: var(--heading-font-color-black);
     width: 3rem;
+    font-size: 2rem;
 }
 
 .p-hero-container {
@@ -390,10 +391,11 @@ ion-icon {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     font-size: var(--small);
+    margin-bottom: 1rem;
 }
 
 .shop-card-head {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .scg-heading {
@@ -413,11 +415,21 @@ ion-icon {
 
 .mon-p-cont {
     display: flex;
-    justify-content: center;
     gap: 0.8rem;
 }
 
 .horiz-rule {
     border-color: #a09898;
     border-radius: 0.5rem;
+}
+
+.shop-card-btn {
+    padding: 0.4rem 6.5rem;
+    color: var(--heading-font-color-black);
+    display: inline-block;
+    font-size: var(--small);
+}
+
+.shop-card-btn:hover {
+    color: var(--heading-font-color-black)
 }
