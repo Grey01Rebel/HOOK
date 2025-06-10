@@ -471,3 +471,10 @@ ion-icon {
     display: flex;
     gap: 1rem;
 }
+
+.testimonial-btn {
+    padding: 0.4rem 6.5rem;
+    color: var(--heading-font-color-black);
+    display: inline-block;
+    font-size: var(--small);
+}
