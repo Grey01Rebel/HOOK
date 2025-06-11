@@ -28,17 +28,29 @@
     padding: 1rem 5rem;
     width: 24.4rem;
   }
+  .steps {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .copy {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .copy4 {
+    grid-row: auto;
+}
 }
 
 @media screen and (max-width: 31.5rem) {
     /* 504px */
     html {
-        font-size: 7px;
+        font-size: 9px;
     }
 }
 
 @media screen and (max-width: 22rem) {
-    /* 504px */
+    /* 352px */
     html {
         font-size: 6px;
     }
@@ -66,5 +78,63 @@
     .founder-text-con {
         padding-bottom: 0;
     }
+    .founder-container {
+        gap: 3rem;
+    }
 }
 
+@media screen and (max-width: 71.25rem) {
+    /* 1140px */
+    .percent-text {
+        font-size: var(--h2);
+    }
+
+    .metrics-card {
+        padding: 0.8rem 1.8rem;
+    }
+
+    .metrics-heading {
+        font-size: 2.3rem;
+    }
+    .metrics {
+        height: 30em;
+    }
+}
+
+@media screen and (max-width: 68rem) {
+    /* 1088px */
+    .percent-text {
+        font-size: 2.3rem;
+    }
+
+    .metrics-card {
+        padding: 0.6rem 1.6rem;
+    }
+
+    .metrics-heading {
+        font-size: 2.1rem;
+    }
+
+     .metrics {
+        height: 27em;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    /* 768px */
+    html {
+        font-size: 10px;
+    }
+  .steps {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .copy {
+    grid-row: auto;
+    grid-column: auto;
+  }
+  .copy4 {
+    grid-row: auto;
+}
+}
