@@ -11,4 +11,4 @@ A bold landing page for HOOK, a fake agency making killer landing pages. Think p
 
 ## Thanks for Checking It Out!
 Dive in, spot the quirks, and have fun. I’m just a coder learning the ropes! 😎
-Nkemjika (Grey01Rebel)
+## Nkemjika.O (Grey01Rebel)
