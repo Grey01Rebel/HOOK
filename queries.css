@@ -1,10 +1,22 @@
 @media screen and (max-width:503px){.navigation{justify-content:space-between;margin-bottom:2.5rem;padding:0}.Logo{width:3rem}.nav-link{gap:.2rem}.btn{padding:.2rem .3rem;font-size:.55rem}ion-icon{width:1.2rem;font-size:1rem}}@media screen and (min-width:504px) and (max-width:650px){.navigation{justify-content:space-between;margin-bottom:3.5rem;padding:0 .2rem}.Logo{width:4.5rem}.nav-link{gap:.5rem}.btn{padding:.35rem .6rem;font-size:.7rem}ion-icon{width:1.8rem;font-size:1.3rem}}@media screen and (min-width:651px) and (max-width:800px){.navigation{justify-content:space-between;margin-bottom:5rem;padding:0 .5rem}.Logo{width:6rem}.nav-link{gap:.8rem}.btn{padding:.5rem .8rem;font-size:.8rem}ion-icon{width:2.2rem;font-size:1.6rem}}@media screen and (min-width:801px) and (max-width:978px){.navigation{justify-content:space-between;margin-bottom:7rem;padding:0 1rem}.Logo{width:7rem}.nav-link{gap:1.2rem}.btn{padding:.6rem 1rem;font-size:.85rem}ion-icon{width:2.5rem;font-size:1.8rem}}@media screen and (min-width:979px){.navigation{justify-content:space-evenly;margin-bottom:10rem}.Logo{width:8rem}.nav-link{gap:var(--h2)}.btn{padding:var(--small) var(--h5);font-size:1rem}ion-icon{width:3rem;font-size:2rem}}
 
+@media screen and (max-width: 61.125rem) {
+    /* 978px */
+  .card {
+    padding: 2rem 6rem;
+    width: 30rem;
+  }
+}
+
 @media screen and (max-width: 51.3rem) {
     /* 820.8px */
     html {
         font-size: 13px;
     }
+     .card {
+    padding: 1.5rem 5.5rem;
+    width: 27.5rem;
+  }
 }
 
 @media screen and (max-width: 41rem) {
@@ -12,6 +24,10 @@
     html {
         font-size: 10px;
     }
+      .card {
+    padding: 1rem 5rem;
+    width: 24.4rem;
+  }
 }
 
 @media screen and (max-width: 31.5rem) {
@@ -39,5 +55,16 @@
     .sub-container {
         font-size: var(--paragraph);
     }
-   
 }
+
+@media screen and (max-width: 66.95rem) {
+    /* 1071px */
+    .section-container {
+        margin-bottom: 5rem;
+    }
+
+    .founder-text-con {
+        padding-bottom: 0;
+    }
+}
+

@@ -218,7 +218,7 @@ ion-icon {
     justify-items: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .founder-text-con {
