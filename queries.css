@@ -136,5 +136,27 @@
   }
   .copy4 {
     grid-row: auto;
-}
+    }
+
+    .flex-control {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .case-text {
+        font-size: var(--small);
+    }
+    .case-h2 {
+        font-size: 1.8rem;
+    }
+    .case-study-img {
+        width: 15rem;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
 }
