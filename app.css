@@ -37,6 +37,10 @@ a {
     color: var(--heading-font-color-black);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1200px;
     width: 90%;
