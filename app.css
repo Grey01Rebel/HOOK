@@ -461,6 +461,7 @@ ion-icon {
     align-items: center;
     padding-left: 3rem;
     padding-right: 3rem;
+    margin-bottom: 2rem;
 }
 
 .ailgn {
@@ -491,7 +492,7 @@ ion-icon {
 .testimonial-control {
     display: flex;
     gap: 1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
 }
 
 .testimonial-btn {
@@ -499,4 +500,11 @@ ion-icon {
     color: var(--heading-font-color-black);
     display: inline-block;
     font-size: var(--small);
+}
+
+footer {
+    text-align: center;
+    color: var(--heading-font-color-black);
+    letter-spacing: normal;
+    font-weight: 500;
 }
