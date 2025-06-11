@@ -42,6 +42,7 @@ a {
     width: 90%;
     margin: 2rem auto;
     padding: 0 1rem;
+    min-height: 100vh;
 }
 
 /* ------NAVIGATION---- */
@@ -102,7 +103,7 @@ ion-icon {
     color: var(--heading-font-color-black);
     text-align: center;
     line-height: var(--line-height);
-    min-height: 70vh;
+    margin-bottom: 15rem;
 }
 
 .pre-hero {
