@@ -440,10 +440,13 @@ ion-icon {
     border-radius: 0.5rem;
 }
 
+.card-btn {
+    text-align: center;
+}
 .shop-card-btn {
     padding: 0.4rem 6.5rem;
     color: var(--heading-font-color-black);
-    display: inline-block;
+    display: block;
     font-size: var(--small);
 }
 
