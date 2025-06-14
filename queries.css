@@ -4,7 +4,7 @@
     /* 978px */
   .card {
     padding: 2rem 6rem;
-    width: 30rem;
+    max-width: 30rem;
   }
 }
 
@@ -15,7 +15,7 @@
     }
      .card {
     padding: 1.5rem 5.5rem;
-    width: 27.5rem;
+    max-width: 27.5rem;
   }
 }
 
@@ -26,7 +26,7 @@
     }
       .card {
     padding: 1rem 5rem;
-    width: 24.4rem;
+    max-width: 24.4rem;
   }
   .steps {
     grid-template-columns: 1fr;
@@ -61,7 +61,7 @@
     .main-container {
        display: grid;
        grid-template-columns: 1fr;
-       width: 30rem;
+       max-width: 30rem;
     }
 
     .sub-container {
@@ -97,7 +97,7 @@
         font-size: 2.3rem;
     }
     .metrics {
-        height: 30em;
+        min-height: 30em;
     }
 }
 
@@ -116,18 +116,15 @@
     }
 
      .metrics {
-        height: 27em;
+        min-height: 27em;
     }
 }
 
 @media screen and (max-width: 48rem) {
-
-    html {
-        font-size: 9px;
-    }
     /* 768px */
-    html {
-        font-size: 10px;
+
+    .sub-container {
+        font-size: var(--paragraph);
     }
   .steps {
     grid-template-columns: 1fr;
@@ -155,7 +152,7 @@
         font-size: 1.8rem;
     }
     .case-study-img {
-        width: 15rem;
+        max-width: 15rem;
     }
 
     .shop-section {
